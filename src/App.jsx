@@ -10,7 +10,6 @@ function App() {
     <>
 
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/project/:id" element={<ProjectDeatil />} />
